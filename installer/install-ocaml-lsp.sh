@@ -8,7 +8,6 @@ DEFAULT_DIR="$(pwd)"
 git clone --recurse-submodules http://github.com/ocaml/ocaml-lsp.git ocaml-lsp-files  --depth=1
 cd ocaml-lsp-files
 
-rm -r lsp/test
 OPAMROOT="$(pwd)/.opam"
 export OPAMROOT
 
